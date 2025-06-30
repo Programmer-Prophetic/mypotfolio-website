@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Martins Albert</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Martins Albert</h1>
+    <p>Web Designer | Creative Developer</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="team.html">Meet the Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Let's Work Together</h2>
+    <p>If you’re ready to build something amazing or just want to ask a few questions, fill out the form below. I’ll get back to you as soon as possible!</p>
+
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+      <label for="project">Type of Website:</label>
+      <select id="project" name="project" required>
+        <option value="">-- Select --</option>
+        <option value="portfolio">Portfolio Website</option>
+        <option value="business">Business Website</option>
+        <option value="ecommerce">E-commerce Site</option>
+        <option value="blog">Blog</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="pages">How Many Pages?</label>
+      <input type="number" id="pages" name="pages" min="1" placeholder="e.g., 5" />
+
+      <label for="features">Special Features Required:</label>
+      <textarea id="features" name="features" rows="3" placeholder="e.g., contact form, slider, booking system..."></textarea>
+
+      <label for="budget">Estimated Budget ($):</label>
+      <input type="text" id="budget" name="budget" placeholder="e.g., 120" />
+
+      <label for="deadline">Preferred Delivery Date:</label>
+      <input type="date" id="deadline" name="deadline" />
+
+      <label for="details">Tell Me About Your Project:</label>
+      <textarea id="details" name="details" rows="5" required placeholder="Describe your goals, audience, and anything important..."></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Martins Albert. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
